@@ -3,3 +3,10 @@ agents:
 
 steps:
   - command: "echo Hello world!"
+    key: hello
+  - command: "echo %cd%"
+    key: check-dir
+  - command: "dir"
+    key: check-dir-contents
+  - command: "git status"
+    key: check-git
